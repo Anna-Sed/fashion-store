@@ -1,0 +1,55 @@
+.container.voucher__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 180px;
+    margin-bottom: 180px;
+    
+    max-width: 1480px;
+}
+
+.voucher__information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 507px;
+}
+
+.info__text {
+    padding-bottom: 65px;
+}
+
+.info__title {
+    padding-bottom: 40px;
+
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+.info__desc {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.45;
+    letter-spacing: -0.04em;
+    color: rgba(124, 124, 124, 1);
+}
+
+.info__icon {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__icon a {
+    transition: transform 0.2s ease-in;
+}
+
+.info__icon a:hover {
+    transform: translateY(-10px);
+}

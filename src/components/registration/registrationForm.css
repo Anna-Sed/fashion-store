@@ -1,0 +1,95 @@
+.registration__modal {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow-y: auto;
+}
+
+.modal__content {
+    background-color: #F4F6F5;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
+
+.modal-title {
+    padding: 0 100px 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.input-field {
+    padding-bottom: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+}
+
+.input-field label{
+    display: block;
+}
+
+.input-field input {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 510px;
+
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form-date input {
+    padding-right: 360px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.form-agreement label{
+    padding-left: 20px;
+}
+
+.form__button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 515px;
+
+    padding-top: 28px;    
+}
+
+.submit-btn, .close-btn {
+    padding: 13px 22px 17px;
+    background-color: #000;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.submit-btn:hover, .close-btn:hover {
+    color: var(--btnColor);
+}

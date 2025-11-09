@@ -1,0 +1,22 @@
+.brands {
+    padding: 60px 0 55px;
+    margin-top: 63px;
+    margin-bottom: 120px;
+    background-color: var(--yellow);
+}
+
+.brands__list {
+    display: flex;
+    /* column-gap: 120px; */
+    mix-blend-mode: multiply;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brands__list li {
+    transition: transform 0.2s ease-in;
+}
+
+.brands__list li:hover {
+    transform: translateY(-10px);
+}

@@ -1,0 +1,65 @@
+.arrivals {
+    margin-bottom: 143px;
+}
+
+.arrivals__title {
+    margin-bottom: 100px;
+}
+
+.title-uppercase {
+    text-transform: uppercase;
+}
+
+.arrivals__cards {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+.card {
+    transition: transform 0.2s ease-in;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-image:hover {
+    box-shadow: 0 10px 40px 0 rgba(220, 111, 228, 0.35);
+}
+
+.card-description {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-text {
+    font-weight: 500;
+}
+
+.card-title {
+    padding-bottom: 7px;
+    font-size: 32px;
+    line-height: cals(50 / 32);
+    letter-spacing: -0.03em;
+
+    color: #000;
+
+    transition: font-size 0.2s ease-in;
+}
+
+.card-title:hover {
+    color: var(--btnColor);
+    font-size: 34px;
+}
+
+.text-explore { 
+    font-size: 24px;
+    line-height: calc(50 / 24);
+    letter-spacing: -0.03em;
+
+    color: #7F7F7F;
+}
+

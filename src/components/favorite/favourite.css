@@ -1,0 +1,43 @@
+.favourite {
+    margin-top: 190px;
+    margin-bottom: 220px;
+
+}
+
+.favourite__title {
+    margin-bottom: 100px;
+}
+
+.favourite_cards {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+
+.card-description {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-text {
+    font-weight: 500;
+}
+.card-title {
+    padding-bottom: 7px;
+    font-size: 32px;
+    line-height: cals(50 / 32);
+    letter-spacing: -0.03em;
+
+    color: #000;
+}
+
+.text-explore { 
+    font-size: 24px;
+    line-height: calc(50 / 24);
+    letter-spacing: -0.03em;
+
+    color: #7F7F7F;
+}

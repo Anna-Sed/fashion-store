@@ -1,0 +1,74 @@
+.input__bloc {
+    height: 625px;
+    background-color: rgba(229, 198, 67, 1);
+    color: #fff;
+}
+
+/* .input__content {
+
+} */
+
+.input__title {
+    padding-top: 140px;
+    padding-bottom: 35px;
+    margin: 0 auto ;
+
+    max-width: 960px;
+
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.input__desc {
+    padding-bottom: 49px;
+    margin: 0 auto;
+    max-width: 1010px;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0 auto;
+    max-width: 575px;
+    height: 87px;
+
+    border-radius: 10px;
+    background-color: #fff;   
+}
+
+.email-input {
+    width: 270px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.45;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+.send-btn {
+    padding: 10px 35px;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+
+    border-radius: 10px;
+
+    background-color: #000;
+}
+
+.send-btn:hover {
+    color: var(--btnColor);
+}
