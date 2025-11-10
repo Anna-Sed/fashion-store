@@ -20,6 +20,7 @@ const Form = ({ onSubmit }) => {
                 placeholder='Add your email here'
                 onChange={e => setEmail(e.target.value)}
                 value={email}
+                required
             />
             <button className="send-btn" type="submit">send</button>
         </form>
