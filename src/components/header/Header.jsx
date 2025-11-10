@@ -17,7 +17,7 @@ const { onSignInClick } = props;
                             <li><a href="#arrivals">catalogue</a></li>
                             <li><a href="#sale__bloc">fashion</a></li>
                             <li><a href="#favourite">favourite</a></li>
-                            <li><a href="#!">lifestyle</a></li>
+                            <li><a href="#sale__bloc">lifestyle</a></li>
                             <li><a href="#!" className="header__nav-btn" onClick={onSignInClick}>Sign in</a></li>
                         </ul>
                     </nav>
