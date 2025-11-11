@@ -106,7 +106,9 @@ const RegistrationForm = (props) => {
                             onChange={(e) => handleChange(e)}
                             required
                         />
-                        <label htmlFor="personal-data">I give my consent to the processing of personal data</label>
+                        <label htmlFor="personal-data">
+                            I give my consent to the processing of personal data
+                        </label>
                     </div>
                     <div className="form__button">
                         <button className="submit-btn">Register</button>
@@ -114,7 +116,11 @@ const RegistrationForm = (props) => {
                 </div>
                 </form>
             </div>
-            {hasRegistration && <InformationWindow title="Successful registration" description="You have successfully registered. Check your email." onClose={onClose}/>} 
+            {
+                hasRegistration && <InformationWindow 
+                title="Successful registration" 
+                description="You have successfully registered. Check your email." onClose={onClose}/>
+            } 
         </div>
         
     )

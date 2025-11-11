@@ -11,7 +11,9 @@ const Voucher = () => {
                 <div className="voucher__information">
                     <div className="info__text">
                         <div className="info__title">DOWNLOAD APP & GET THE VOUCHER!</div>
-                        <div className="info__desc">Get 30% off for first transaction using Rondovision mobile app for now.</div>
+                        <div className="info__desc">
+                            Get 30% off for first transaction using Rondovision mobile app for now.
+                        </div>
                     </div>
                     <div className="info__icon">
                         <a href="#!"><img src={appStore} alt="App Store" /></a>

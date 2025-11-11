@@ -12,7 +12,9 @@ const SaleBloc = () => {
                             SALE NOW
                         </div>
                         <div className="sale__description">
-                            <p className="text__description">Spend minimal $100 get 30% off voucher code for your next purchase</p>
+                            <p className="text__description">
+                                Spend minimal $100 get 30% off voucher code for your next purchase
+                            </p>
                             <p className="text__date">1 June - 10 June 2025</p>
                             <p className="text__terms">*Terms & Conditions apply</p>
                         </div>
