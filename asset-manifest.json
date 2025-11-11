@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/fashion-store/static/css/main.9d65e221.css",
+    "main.js": "/fashion-store/static/js/main.75a6081c.js",
+    "static/media/promo.jpg": "/fashion-store/static/media/promo.40e37357a364698d4d9b.jpg",
+    "static/media/01.jpg": "/fashion-store/static/media/01.6eae01ae70f55ff62cc6.jpg",
+    "static/media/vouchers-img.jpg": "/fashion-store/static/media/vouchers-img.7651dce58aa07176b1d6.jpg",
+    "static/media/03.jpg": "/fashion-store/static/media/03.c27fe5f2966df89cf7fc.jpg",
+    "static/media/02.jpg": "/fashion-store/static/media/02.dea029d454e86dfcff3a.jpg",
+    "static/media/successfully.png": "/fashion-store/static/media/successfully.e9d2dcd29e8fc1eb9024.png",
+    "static/media/sale-img.jpg": "/fashion-store/static/media/sale-img.afc6b01662a5e7aefcfd.jpg",
+    "static/media/google-play.jpg": "/fashion-store/static/media/google-play.158adb300bc158973ae8.jpg",
+    "static/media/app-store.jpg": "/fashion-store/static/media/app-store.2ac94ba8d3809387e8a2.jpg",
+    "static/media/Amazon.png": "/fashion-store/static/media/Amazon.52bf99897e3fa0c027ba.png",
+    "static/media/Shopify.png": "/fashion-store/static/media/Shopify.cd84824cc81ba23ce238.png",
+    "static/media/logo.svg": "/fashion-store/static/media/logo.0c69ab97f08149ea46ae44627b48b5b3.svg",
+    "static/media/inst.svg": "/fashion-store/static/media/inst.5e2b648657a719393fb688b4195d5b17.svg",
+    "static/media/tw.svg": "/fashion-store/static/media/tw.2e49e015e3f6c850bc434895ffbd2a85.svg",
+    "static/media/in.svg": "/fashion-store/static/media/in.5e5948a8cf89a1999a778b8b747a9c5c.svg",
+    "index.html": "/fashion-store/index.html",
+    "static/media/arrow.svg": "/fashion-store/static/media/arrow.0ec84f951a691965556beeeb027ac08c.svg",
+    "static/media/fb.svg": "/fashion-store/static/media/fb.3b6d8e807596f30b0dbc07753a9b0cd2.svg",
+    "static/media/yellowImg.svg": "/fashion-store/static/media/yellowImg.a14a51327547871fd595.svg",
+    "main.9d65e221.css.map": "/fashion-store/static/css/main.9d65e221.css.map",
+    "main.75a6081c.js.map": "/fashion-store/static/js/main.75a6081c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d65e221.css",
+    "static/js/main.75a6081c.js"
+  ]
+}
